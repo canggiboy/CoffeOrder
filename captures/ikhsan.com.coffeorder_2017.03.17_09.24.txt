@@ -1,0 +1,25 @@
+TASK ikhsan.com.coffeorder id=1693
+  ACTIVITY ikhsan.com.coffeorder/.LoginAcitvity 32f0e256 pid=6036
+    Local FragmentActivity 3b91f40f State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@25fa6e32
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@25fa6e32
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{25e05783 V.E..... ... 0,0-480,854}
+        android.widget.LinearLayout{2d815d00 V.E..... ... 0,0-480,854}
+          android.view.ViewStub{386ac939 G.E..... ... 0,0-0,0 #102037a}
+          android.widget.FrameLayout{29dd3b7e V.E..... ... 0,38-480,480}
+            android.support.v7.widget.FitWindowsLinearLayout{3cc6e8df V.E..... ... 0,0-480,442 #7f0c003e app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{371f492c G.E..... ... 0,0-0,0 #7f0c003f app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{4a5bff5 V.E..... ... 0,0-480,442 #1020002 android:id/content}
+                android.widget.ScrollView{278d918a VFED.V.. ... 0,0-480,442}
+                  android.widget.LinearLayout{145b33fb V.E..... ... 0,0-480,619}
+                    android.support.v7.widget.AppCompatImageView{23cdcc18 V.ED.... ... 36,84-444,252}
+                    android.support.v7.widget.AppCompatEditText{255f6671 VFED..CL F.. 36,288-444,356}
+                    android.support.v7.widget.AppCompatEditText{273b3c56 VFED..CL ... 36,374-444,442}
+                    android.support.v7.widget.AppCompatButton{11f14d7 VFED..C. ... 36,460-444,532}
+                    android.support.v7.widget.AppCompatTextView{27df91c4 V.ED..C. ... 36,550-444,583}
+        android.view.View{1a32f8ad V.ED.... ... 0,0-480,38 #102002f android:id/statusBarBackground}

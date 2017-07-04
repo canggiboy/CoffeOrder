@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/home/ikhsan/.android/build-cache/d606e83f939bbaa6c91a1bd8f9d13bdf4e5aae34/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/home/ikhsan/.android/build-cache/30208b75ae98f73a92ed37eb4ea32d8fbc2a8e40/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/home/ikhsan/.android/build-cache/d606e83f939bbaa6c91a1bd8f9d13bdf4e5aae34/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/home/ikhsan/.android/build-cache/30208b75ae98f73a92ed37eb4ea32d8fbc2a8e40/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/home/ikhsan/.android/build-cache/30208b75ae98f73a92ed37eb4ea32d8fbc2a8e40/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/home/ikhsan/.android/build-cache/30208b75ae98f73a92ed37eb4ea32d8fbc2a8e40/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/anim/abc_popup_enter.xml"
+    }
+]

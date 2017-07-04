@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ikhsan.com.coffeorder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/splashScreen" >
+        <activity
+            android:name="ikhsan.com.coffeorder.user.MainActivity"
+            android:label="@string/menu_list"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="ikhsan.com.coffeorder.user.UserLoginAcitvity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="ikhsan.com.coffeorder.splash.SplashScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ikhsan.com.coffeorder.admin.AdminLoginActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="ikhsan.com.coffeorder.admin.AdminActivity"
+            android:label="Administrator"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name="ikhsan.com.coffeorder.admin.AddMenuActivity"
+            android:label="@string/tambah_menu"
+            android:parentActivityName="ikhsan.com.coffeorder.admin.AdminActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".admin.AdminActivity" />
+        </activity>
+        <activity android:name="ikhsan.com.coffeorder.user.TotalActivity" />
+
+        <provider
+            android:name="ikhsan.com.coffeorder.data.CoffeeProvider"
+            android:authorities="ikhsan.com.coffeorder"
+            android:exported="false" />
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="ikhsan.com.coffeorder.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

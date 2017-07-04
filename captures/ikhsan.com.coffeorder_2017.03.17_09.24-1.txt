@@ -1,0 +1,33 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1c134e4f ikhsan.com.coffeorder/.splashScreen
+
+Key Set Manager:
+  [ikhsan.com.coffeorder]
+      Signing KeySets: 4480
+
+Packages:
+  Package [ikhsan.com.coffeorder] (27d70432):
+    userId=10125 gids=[]
+    pkg=Package{39ca91e3 ikhsan.com.coffeorder}
+    codePath=/data/app/ikhsan.com.coffeorder-1
+    resourcePath=/data/app/ikhsan.com.coffeorder-1
+    legacyNativeLibraryDir=/data/app/ikhsan.com.coffeorder-1/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=1 targetSdk=23
+    versionName=1.0
+    splits=[base]
+    applicationInfo=ApplicationInfo{c4577e0 ikhsan.com.coffeorder}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    dataDir=/data/data/ikhsan.com.coffeorder
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2017-03-17 09:17:09
+    firstInstallTime=2017-03-09 19:55:56
+    lastUpdateTime=2017-03-17 09:17:09
+    signatures=PackageSignatures{588d739 [3b5a7a99]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0:  installed=true hidden=false stopped=false notLaunched=false enabled=0
+    User 10:  installed=true hidden=false stopped=true notLaunched=true enabled=0

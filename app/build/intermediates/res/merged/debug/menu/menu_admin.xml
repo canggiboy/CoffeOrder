@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".admin.AdminActivity">
+
+    <item
+        android:id="@+id/action_tambah_menu"
+        android:title="@string/tambah_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_hapus_menu"
+        android:title="@string/hapus_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_keluar"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+
+</menu>

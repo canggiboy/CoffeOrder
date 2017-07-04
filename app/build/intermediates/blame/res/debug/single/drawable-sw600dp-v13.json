@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/drawable-sw600dp-v13/ic_collapse_holo_light.xml",
+        "source": "/home/ikhsan/.android/build-cache/4855c4c5c7bcfd055ce2928891f1700fa0b759e0/output/res/drawable-sw600dp/ic_collapse_holo_light.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/drawable-sw600dp-v13/ic_expand_holo_light.xml",
+        "source": "/home/ikhsan/.android/build-cache/4855c4c5c7bcfd055ce2928891f1700fa0b759e0/output/res/drawable-sw600dp/ic_expand_holo_light.xml"
+    }
+]

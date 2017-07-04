@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

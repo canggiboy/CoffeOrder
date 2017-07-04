@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CoffeOrder</string>
+
+    <string name="menu">Menu</string>
+
+    <string name="button_order">Order</string>
+
+    <string name="tambah_menu">Tambah menu</string>
+    <string name="hapus_menu">Hapus menu</string>
+
+    <string name="category_overview">Overview</string>
+    <string name="category_jenis">Jenis</string>
+    <string name="hint_name">Nama</string>
+    <string name="hint_price">Harga</string>
+
+    <string name="type_foods">Makanan</string>
+    <string name="type_drinks">Minuman</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_logout">Keluar</string>
+
+    <string name="menu_list">Daftar Menu</string>
+</resources>

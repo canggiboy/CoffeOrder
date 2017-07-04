@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ikhsan.com.coffeorder">
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/splashScreen">
+        <activity
+            android:name=".user.MainActivity"
+            android:label="@string/menu_list"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".user.UserLoginAcitvity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".splash.SplashScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".admin.AdminLoginActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:label="Administrator"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.AddMenuActivity"
+            android:label="@string/tambah_menu"
+            android:parentActivityName=".admin.AdminActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".admin.AdminActivity" />
+        </activity>
+        <activity android:name=".user.TotalActivity" />
+        <provider
+            android:authorities="ikhsan.com.coffeorder"
+            android:name=".data.CoffeeProvider"
+            android:exported="false"/>
+    </application>
+
+</manifest>
