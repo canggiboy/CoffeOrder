@@ -10,5 +10,9 @@
     {
         "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/menu/menu_tambah.xml",
         "source": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/res/menu/menu_tambah.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/menu/menu_pesanan.xml",
+        "source": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/res/menu/menu_pesanan.xml"
     }
 ]

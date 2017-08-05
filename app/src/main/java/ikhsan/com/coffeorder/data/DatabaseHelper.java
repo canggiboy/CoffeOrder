@@ -64,8 +64,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    public List<DatabaseModel> getDataFromDB(){
-        List<DatabaseModel> modelList = new ArrayList<DatabaseModel>();
+    public ArrayList<DatabaseModel> getDataFromDB(){
+        ArrayList<DatabaseModel> modelList = new ArrayList<DatabaseModel>();
         String query = "select * from "+coffeeEntry.TABLE_MENU;
 
         SQLiteDatabase db = this.getWritableDatabase();

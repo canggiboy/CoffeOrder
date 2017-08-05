@@ -58,6 +58,12 @@
             android:name="ikhsan.com.coffeorder.data.CoffeeProvider"
             android:authorities="ikhsan.com.coffeorder"
             android:exported="false" />
+
+        <activity
+            android:name="ikhsan.com.coffeorder.user.AddOrderActivity"
+            android:label="@string/tambah_pesanan"
+            android:parentActivityName="ikhsan.com.coffeorder.user.MainActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
     </application>
 
 </manifest>

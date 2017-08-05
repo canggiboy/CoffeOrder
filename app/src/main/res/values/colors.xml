@@ -6,4 +6,5 @@
 
     <color name="colorFirstItem">#2B3D4D</color>
     <color name="colorSecondItem">#6C7A89</color>
+    <color name="colorButton">#ff9955</color>
 </resources>

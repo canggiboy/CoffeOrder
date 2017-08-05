@@ -3,13 +3,13 @@ package ikhsan.com.coffeorder.user;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,30 +17,21 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import ikhsan.com.coffeorder.R;
 import ikhsan.com.coffeorder.adapter.CoffeeAdapter;
-import ikhsan.com.coffeorder.admin.AddMenuActivity;
-import ikhsan.com.coffeorder.admin.AdminActivity;
 import ikhsan.com.coffeorder.data.DatabaseHelper;
 
-import ikhsan.com.coffeorder.data.CoffeeContract.coffeeEntry;
 import ikhsan.com.coffeorder.model.DatabaseModel;
-
-import static android.widget.Toast.makeText;
 
 public class MainActivity extends AppCompatActivity implements CoffeeAdapter.ListItemClickListener{
 
-    List<DatabaseModel> dbList;
+    ArrayList<DatabaseModel> model;
     RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
-
-    private Toast mToast;
 
     private DatabaseHelper mDbHelper;
 
@@ -53,8 +44,8 @@ public class MainActivity extends AppCompatActivity implements CoffeeAdapter.Lis
         mDbHelper = new DatabaseHelper(this);
         //displayDatabaseInfo();
 
-        dbList = new ArrayList<DatabaseModel>();
-        dbList = mDbHelper.getDataFromDB();
+        model = new ArrayList<DatabaseModel>();
+        model = mDbHelper.getDataFromDB();
 
         mRecyclerView = (RecyclerView)findViewById(R.id.rv_menu_list);
 
@@ -65,13 +56,28 @@ public class MainActivity extends AppCompatActivity implements CoffeeAdapter.Lis
         mRecyclerView.setHasFixedSize(true);
 
         // specify an adapter (see also next example)
-        mAdapter = new CoffeeAdapter(this,dbList,this);
+        mAdapter = new CoffeeAdapter(this,model,this);
         mRecyclerView.setAdapter(mAdapter);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                TextView tvOrder = (TextView) findViewById(R.id.tv_tot_order);
+                TextView tvPrice = (TextView) findViewById(R.id.tv_list_price);
+                int intOrder = Integer.parseInt(tvOrder.getText().toString());
+                int intPrice = Integer.parseInt(tvPrice.getText().toString());
+                int total = intOrder*intPrice;
+                Intent i = new Intent(MainActivity.this, TotalActivity.class);
+                i.putExtra("Total", total);
+                startActivity(i);
+            }
+        });
+
     }
 
     @Override
     public void onListItemClick(int clickedItemIndex) {
-
     }
 
     @Override
@@ -116,63 +122,5 @@ public class MainActivity extends AppCompatActivity implements CoffeeAdapter.Lis
                 .show();
 
     }
-
-    /*private void displayDatabaseInfo(){
-
-        SQLiteDatabase db = mDbHelper.getReadableDatabase();
-
-        String[] project = {
-                coffeeEntry._ID,
-                coffeeEntry.COLUMN_MENU_NAME,
-                coffeeEntry.COLUMN_MENU_PRICE,
-                coffeeEntry.COLUMN_MENU_TYPE,
-        };
-
-        Cursor cursor = db.query(
-                coffeeEntry.TABLE_MENU,
-                project,
-                null,
-                null,
-                null,
-                null,
-                null
-        );
-
-        TextView displayView = (TextView) findViewById(R.id.tv_type_order);
-
-        try {
-            // Display the number of rows in the Cursor (which reflects the number of rows in the
-            // pets table in the database).
-            displayView.setText("The coffee table constains "+cursor.getCount()+" menu.\n\n");
-            displayView.append(coffeeEntry._ID+" - "+coffeeEntry.COLUMN_MENU_NAME+" - "+coffeeEntry.COLUMN_MENU_PRICE
-                    +" - "+coffeeEntry.COLUMN_MENU_TYPE+"\n");
-
-            int idColumnIndex = cursor.getColumnIndex(coffeeEntry._ID);
-            int nameColumnIndex = cursor.getColumnIndex(coffeeEntry.COLUMN_MENU_NAME);
-            int priceColumnIndex = cursor.getColumnIndex(coffeeEntry.COLUMN_MENU_PRICE);
-            int typeColumnIndex = cursor.getColumnIndex(coffeeEntry.COLUMN_MENU_TYPE);
-
-            while (cursor.moveToNext()){
-
-                int currentID = cursor.getInt(idColumnIndex);
-                String currentName = cursor.getString(nameColumnIndex);
-                String currentprice = cursor.getString(priceColumnIndex);
-                int currentType = cursor.getInt(typeColumnIndex);
-                String typeString;
-                if (currentType == 0){
-                    typeString = "Makanan";
-                }else {
-                    typeString = "Minuman";
-                }
-
-                displayView.append(("\n"+currentID+" - "+currentName+" - "+currentprice+" - "+typeString));
-            }
-        } finally {
-            // Always close the cursor when you're done reading from it. This releases all its
-            // resources and makes it invalid.
-            cursor.close();
-        }
-    }
-    */
 }
 

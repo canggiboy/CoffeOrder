@@ -40,16 +40,23 @@
             android:label="@string/tambah_menu"
             android:parentActivityName=".admin.AdminActivity"
             android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".admin.AdminActivity" />
         </activity>
         <activity android:name=".user.TotalActivity" />
+
         <provider
-            android:authorities="ikhsan.com.coffeorder"
             android:name=".data.CoffeeProvider"
-            android:exported="false"/>
+            android:authorities="ikhsan.com.coffeorder"
+            android:exported="false" />
+
+        <activity android:name=".user.AddOrderActivity"
+            android:parentActivityName=".user.MainActivity"
+            android:label="@string/tambah_pesanan"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"></activity>
     </application>
 
 </manifest>

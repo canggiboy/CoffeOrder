@@ -20,8 +20,8 @@ public class TotalActivity extends AppCompatActivity {
         //Mengambil nilai dari main activity dan ditampilkan di activity ini
         TextView textview = (TextView)findViewById(R.id.totalBayar);
         Intent intent = getIntent();
-        int intValue = intent.getIntExtra("total", 0);
-        textview.setText("Rp."+intValue);
+        int strValue = intent.getIntExtra("Total", 0);
+        textview.setText("Rp."+strValue);
     }
 
     //method ketika tombol back ditekan pada device dan memunculkan alert dialog

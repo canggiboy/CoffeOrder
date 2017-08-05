@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:2:1-55:12
+ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:2:1-62:12
 	package
 		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml
@@ -14,13 +14,13 @@ ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidMan
 		INJECTED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:5:5-53:19
+ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:5:5-60:19
 MERGED from [com.ms-square:expandableTextView:0.1.4] /home/ikhsan/.android/build-cache/4855c4c5c7bcfd055ce2928891f1700fa0b759e0/output/AndroidManifest.xml:9:5-20
 MERGED from [com.github.aakira:expandable-layout:1.4.2] /home/ikhsan/.android/build-cache/f7bc8ef6992b91c92fb7f87977ef24b1e7c81747/output/AndroidManifest.xml:12:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ikhsan/.android/build-cache/3e02ab1231930114fb1f7e83c97062a39757fc7f/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:23.1.1] /home/ikhsan/.android/build-cache/30208b75ae98f73a92ed37eb4ea32d8fbc2a8e40/output/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.1.1] /home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/ikhsan/.android/build-cache/cc6e4640cd54fd77a29c060c756f69fd02957386/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/ikhsan/.android/build-cache/da71c67d5780b659f6038e50fba9823cf15ec991/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:9:9-41
 	android:supportsRtl
@@ -84,7 +84,7 @@ ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidMan
 	android:name
 		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:35:13-48
 activity#ikhsan.com.coffeorder.admin.AddMenuActivity
-ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:38:9-47:20
+ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:38:9-48:20
 	android:label
 		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:40:13-48
 	android:parentActivityName
@@ -94,23 +94,33 @@ ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidMan
 	android:name
 		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:39:13-50
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:44:13-46:56
+ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:45:13-47:56
 	android:value
-		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:46:17-53
+		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:47:17-53
 	android:name
-		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:45:17-63
+		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:46:17-63
 activity#ikhsan.com.coffeorder.user.TotalActivity
-ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:48:9-56
+ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:49:9-56
 	android:name
-		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:48:19-53
+		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:49:19-53
 provider#ikhsan.com.coffeorder.data.CoffeeProvider
-ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:49:9-52:39
+ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:51:9-54:40
 	android:authorities
-		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:50:13-56
+		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:53:13-56
 	android:exported
-		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:52:13-37
+		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:51:13-48
+		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:52:13-48
+activity#ikhsan.com.coffeorder.user.AddOrderActivity
+ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:56:9-59:88
+	android:label
+		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:58:13-51
+	android:parentActivityName
+		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:57:13-60
+	android:theme
+		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:59:13-76
+	android:name
+		ADDED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml:56:19-56
 uses-sdk
 INJECTED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.ms-square:expandableTextView:0.1.4] /home/ikhsan/.android/build-cache/4855c4c5c7bcfd055ce2928891f1700fa0b759e0/output/AndroidManifest.xml:5:5-7:41
@@ -119,7 +129,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/ikhsa
 MERGED from [com.android.support:design:23.1.1] /home/ikhsan/.android/build-cache/30208b75ae98f73a92ed37eb4ea32d8fbc2a8e40/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:23.1.1] /home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:23.1.1] /home/ikhsan/.android/build-cache/600ac8691200172222951b02b2234585dd501fe8/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/ikhsan/.android/build-cache/cc6e4640cd54fd77a29c060c756f69fd02957386/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/ikhsan/.android/build-cache/da71c67d5780b659f6038e50fba9823cf15ec991/output/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/AndroidManifest.xml

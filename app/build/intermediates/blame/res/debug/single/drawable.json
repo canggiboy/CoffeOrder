@@ -20,6 +20,10 @@
         "source": "/home/ikhsan/.android/build-cache/30208b75ae98f73a92ed37eb4ea32d8fbc2a8e40/output/res/drawable/design_snackbar_background.xml"
     },
     {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/drawable/ic_add.png",
+        "source": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/res/drawable/ic_add.png"
+    },
+    {
         "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/home/ikhsan/.android/build-cache/e3095e328afa8c3ab42e5fe61df4de866e53c037/output/res/drawable/abc_ic_clear_material.xml"
     },
@@ -184,6 +188,10 @@
         "source": "/home/ikhsan/.android/build-cache/e3095e328afa8c3ab42e5fe61df4de866e53c037/output/res/drawable/notification_bg.xml"
     },
     {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/drawable/ic_food.xml",
+        "source": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/res/drawable/ic_food.xml"
+    },
+    {
         "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
         "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/drawable/abc_ratingbar_full_material.xml"
     },
@@ -200,6 +208,10 @@
         "source": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/res/drawable/buttonborder.xml"
     },
     {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/drawable/ic_drink.xml",
+        "source": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/res/drawable/ic_drink.xml"
+    },
+    {
         "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/home/ikhsan/.android/build-cache/693a2308122ddaea19978190a212af45d826aafa/output/res/drawable/abc_item_background_holo_light.xml"
     },
@@ -210,5 +222,9 @@
     {
         "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/home/ikhsan/.android/build-cache/e3095e328afa8c3ab42e5fe61df4de866e53c037/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/build/intermediates/res/merged/debug/drawable/ic_basket.png",
+        "source": "/home/ikhsan/AndroidStudioProjects/CoffeOrder/app/src/main/res/drawable/ic_basket.png"
     }
 ]
